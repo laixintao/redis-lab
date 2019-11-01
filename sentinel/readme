@@ -1,2 +1,9 @@
+# This script starts:
 3 sentinel servers runs on localhost 5000 5001 5002
 2 redis-server runs on 7379(master) 7380(slave)
+
+# To start: 
+
+tmuxp load sentinel.yaml
+
+What is [tmuxp](http://tmuxp.git-pull.com/en/latest/quickstart.html)?
